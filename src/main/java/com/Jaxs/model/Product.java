@@ -49,7 +49,7 @@ public class Product {
 	@Column(name = "active")
 	private boolean active;
 
-
+	// Datetime(6)
 	@Column(name = "date_created")
 	@CreationTimestamp
 	private Date dateCreated;

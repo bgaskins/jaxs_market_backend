@@ -26,30 +26,26 @@ public class Config implements RepositoryRestConfigurer {
 	 
 	 @Override
 	    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
-
-
-	        // call an internal helper method
 	        exposeIds(config);
 	    }
 	 
 	 
 	 private void exposeIds(RepositoryRestConfiguration config) {
 
-		        // expose entity ids
-		        //
+		       
 
-		        // - get a list of all entity classes from the entity manager
+		        // Getting entity from entity manager
 		        Set<EntityType<?>> entities = entityManager.getMetamodel().getEntities();
 
-		        // - create an array of the entity types
+		        // Create array of entities
 		        List<Class<?>> entityClasses = new ArrayList<>();
 
-		        // - get the entity types for the entities
+		        // Getting entity type
 		        for (EntityType<?> tempEntityType : entities) {
 		            entityClasses.add(tempEntityType.getJavaType());
 		        }
 
-		        // - expose the entity ids for the array of entity/domain types
+		        // Find entity ids for the array of entity/SQL domain types
 		        Class<?>[] domainTypes = entityClasses.toArray(new Class[0]);
 		        config.exposeIdsFor(domainTypes);
 		    }

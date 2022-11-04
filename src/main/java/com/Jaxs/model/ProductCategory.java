@@ -25,6 +25,7 @@ public class ProductCategory {
 	@Column(name="id")
 	private Long id;
 	
+	//Deli, produce, bakery, frozen, etc.
 	@Column(name="category_name")
 	private String categoryName;
 	
