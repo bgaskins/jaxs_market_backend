@@ -58,3 +58,6 @@ Contact Us lists company information.
 <br>
 <br>
 <br>
+
+
+![jaxs-eer-diagram](https://user-images.githubusercontent.com/96695276/219698883-c2f02070-abb5-4a83-a1af-d51033701397.png)
