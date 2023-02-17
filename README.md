@@ -10,6 +10,22 @@ Backend: Java/Spring, SQL/MySQL
 Frontend: HTML5, CSS5, Typescript, Angular, Bootstrap
 <br>
 <br>
+<h4>--- Demos ---</h4>
+
+https://user-images.githubusercontent.com/96695276/219770959-8629e554-c8c2-49e2-9c49-a1843a4f6df6.mp4
+
+<br>
+<br>
+<br>
+
+
+<h5>Mobile<h5>
+
+https://user-images.githubusercontent.com/96695276/219801278-128590f0-b931-4c4e-8476-3934c61dad5f.mp4
+
+<br>
+<br>
+<br>
 <h4>--- Project ---</h4>
 <br>
 
